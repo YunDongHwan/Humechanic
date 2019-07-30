@@ -1,0 +1,51 @@
+<style>
+#ObjectList{
+  width: 100px;
+}
+body{
+  transition: background-color .5s;
+}
+
+
+.ObjectMenu {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 138px;
+  left: 8px;
+  background-color: #222;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.ObjectMenu a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+  color: #818181;
+  display: block;
+
+}
+
+.ObjectMenu a:hover {
+  color: #f1f1f1;
+}
+
+.ObjectList {
+  margin-left: 150px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.ObjectCash {
+  margin-left: 150px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .ObjectMenu {padding-top: 15px;}
+  .ObjectMenu a {font-size: 18px;}
+}
+</style>

@@ -1,0 +1,80 @@
+  body{
+    font-family: "Lato", sans-serif;
+    margin:0;
+  }
+  .home{
+    border:2px solid black;
+    text-align: center;
+    margin:0;
+    color:black;
+    text-decoration:none;
+    /*text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;*/
+  }
+  .home :visited {
+    color: black;
+   }   
+   .home a:hover {
+    color: darkred ;
+   }
+
+  .menu{
+   overflow: auto;
+   background-color: #333;
+  }
+  .dropbtn {
+     font-size: 16px;
+     border-color: black;
+     outline: none;
+     color: white;
+     padding: 14px 16px;
+     background-color: inherit;
+     font-family: inherit;
+     margin: 0;
+     cursor: pointer;
+     width: 100%;
+   }
+   .dropdown-content {
+     display: none;
+     border-color: black;
+     position: absolute;
+     background-color: #443;
+     min-width: inherit;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 2;  /*화면을 3차원으로 생각했을때 입체감을 나타냄*/
+     width: 20%;
+   }
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  .dropdown-content a:hover {/*drop메뉴 선택시 배경 색*/
+    background-color: #232;
+    transition: .5s ;
+  }
+  .Introduce, .Join, .Activities, .Comunity, .Object {
+    float: left;
+    overflow: hidden;
+    width:20%;
+  }
+  .Introduce:hover .dropdown-content {
+    display: block;
+  }
+  .Introduce:hover{
+    transition: .5s ;
+  }
+  .Join:hover .dropdown-content {
+    display: block;
+  }
+  .Activities:hover .dropdown-content {
+    display: block;
+  }
+  .Comunity:hover .dropdown-content {
+    display: block;
+  }
+  .Object:hover .dropdown-content {
+    display: block;
+  }
