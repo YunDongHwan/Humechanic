@@ -1,0 +1,47 @@
+.ActivityTitle{
+  text-align:left;
+  font-size: 3rem;
+  font-family:sans-serif;
+}
+.RecordButton  {
+  float:right;
+  background-color: #112;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  height: 100%;
+
+}
+.Activity {
+  float: left;
+  width: 24%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.RecordButton:active {
+  background-color: #222;
+  box-shadow: 0 5px #333;
+  transform: translateY(4px);
+}
+.Record img{
+  border-right: solid 3px;
+
+}
+.Record h2{
+  margin : 0;
+}
+.Record{
+  width: 90%;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 4fr ;
+  border: solid 3px;
+  background-color: #E6E6E6;
+}
