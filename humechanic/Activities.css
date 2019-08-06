@@ -2,6 +2,14 @@
   text-align:left;
   font-size: 3rem;
   font-family:sans-serif;
+  display: block;
+  background-color: #332;
+  color: #E6E6E6;
+  border-bottom:solid 3px black;
+  border-left:solid 3px black;
+  border-right:solid 3px black;
+  margin: 0;
+  padding: 10px;
 }
 html {
   box-sizing: border-box;
@@ -13,17 +21,20 @@ html {
 
 .Activity {
   float: left;
-  width: 25%;
+  width: 24%;
   margin-bottom: 16px;
+  margin-right: 1%;
   padding: 0 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height: 100;
+  background-color: #E0F8E0;
 }
 .team {
   padding: 0 16px;
   height: 20rem;
 }
 .Activity img{
+  margin-top: 16px;
   width: 100%;
   height: 25rem;
 }
